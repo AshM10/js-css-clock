@@ -40,4 +40,13 @@ body {
   background: black;
   position: absolute;
   top: 50%;
+  transform-origin: 100%; /* Moved the hand to a different position */
+  transform: rotate(90deg); /* makes the hand rotate */
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(
+    0.1,
+    2.7,
+    0.58,
+    1
+  ); /* this would be the transition effect of the hand */
 }
