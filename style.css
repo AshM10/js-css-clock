@@ -18,7 +18,7 @@ body {
 .clock {
   width: 30rem;
   height: 30rem;
-  border: 20px solid white;
+  border: 20px solid rgb(90, 77, 138);
   border-radius: 50%;
   margin: 50px auto;
   position: relative;
@@ -49,4 +49,16 @@ body {
     0.58,
     1
   ); /* this would be the transition effect of the hand */
+}
+
+.second-hand {
+  background-color: lightblue;
+}
+
+.min-hand {
+  background-color: lightskyblue;
+}
+
+.hour-hand {
+  background-color: darkblue;
 }
